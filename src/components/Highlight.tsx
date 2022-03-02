@@ -31,7 +31,6 @@ export class Highlight extends Component<Props> {
       <div
         className={`Highlight ${isScrolledTo ? "Highlight--scrolledTo" : ""}`}
       >
-        <span>wasComment</span>
         <div className="Highlight__parts">
           {rects.map((rect, index) => (
             <div
